@@ -1,4 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i);
+
+
 
 body {
   font-style: normal;
@@ -16,11 +18,11 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'RobotoCondensed-Bold';
-  font-size: 4.25rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3.4rem;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 6.8rem;
+  font-size: 5.44rem;
 }
 .display-2 {
   font-family: 'RobotoCondensed-Bold';
@@ -37,18 +39,18 @@ body {
   font-size: 1.68rem;
 }
 .display-5 {
-  font-family: 'RobotoCondensed-Bold';
-  font-size: 1.4rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.6rem;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.24rem;
+  font-size: 2.56rem;
 }
 .display-7 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 0.95rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.52rem;
+  font-size: 2.4rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -57,9 +59,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.4rem;
-    font-size: calc( 2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.72rem;
+    font-size: calc( 1.8399999999999999rem + (3.4 - 1.8399999999999999) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.8399999999999999rem + (3.4 - 1.8399999999999999) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 2.4rem;
@@ -72,9 +74,9 @@ body {
     line-height: calc( 1.4 * (1.0175rem + (1.05 - 1.0175) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.28rem;
+    font-size: calc( 1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -640,14 +642,14 @@ a:hover {
   background-color: #f5f5f5;
   box-shadow: none;
   color: #565656;
-  font-family: 'Roboto', sans-serif;
-  font-size: 0.95rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
   line-height: 1.43;
   min-height: 3.5em;
   padding: 1.07em .5em;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.52rem;
+  font-size: 2.4rem;
 }
 .form-control,
 .form-control:focus {
@@ -665,6 +667,7 @@ a:hover {
   right: 0;
   top: 0;
   z-index: 0;
+  pointer-events: none;
 }
 blockquote {
   font-style: italic;
@@ -1292,6 +1295,17 @@ body {
     flex: auto!important;
   }
 }
+.jq-selectbox li:hover,
+.jq-selectbox li.selected {
+  background-color: #ffffff;
+  color: #000000;
+}
+.jq-selectbox .jq-selectbox__trigger-arrow {
+  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
+}
+.jq-selectbox:hover .jq-selectbox__trigger-arrow {
+  border-top-color: #ffffff;
+}
 .cid-r5pIXyW5Br .navbar {
   padding: .5rem 0;
   background: #263f8c;
@@ -1770,7 +1784,7 @@ body {
   color: #263f8c;
 }
 .cid-qZyhIWRsTG {
-  background-image: url("../../../assets/images/5-1-2000x1134.jpg");
+  background-image: url("../../../assets/images/exp1-1920x1080.jpg");
 }
 .cid-qZyhIWRsTG H1 {
   text-align: center;
@@ -1782,119 +1796,10 @@ body {
 .cid-qZyhIWRsTG P {
   text-align: center;
 }
-.cid-rbS0NeXrtd {
-  background-image: url("../../../assets/images/3-2000x1134.jpg");
-}
 .cid-rbS0NeXrtd .mbr-text,
 .cid-rbS0NeXrtd .mbr-section-btn {
-  text-align: left;
+  text-align: center;
 }
 .cid-rbS0NeXrtd H1 {
   text-align: left;
-}
-.cid-rbVzvxV5eQ {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #efefef;
-}
-.cid-rbS7znlaod {
-  padding-top: 60px;
-  padding-bottom: 45px;
-  background-color: #263f8c;
-}
-.cid-rbS7rUG5dZ {
-  background: #000000;
-}
-.cid-rbS7rUG5dZ .video-block {
-  margin: auto;
-  width: 100% !important;
-}
-@media (max-width: 768px) {
-  .cid-rbS7rUG5dZ .video-block {
-    width: 100% !important;
-  }
-}
-.cid-rbS9UGSExn {
-  padding-top: 60px;
-  padding-bottom: 45px;
-  background-color: #263f8c;
-}
-.cid-rbS9775EWF {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #efefef;
-}
-@media (max-width: 767px) {
-  .cid-rbS9775EWF .media-wrap {
-    margin-bottom: 1rem;
-    text-align: center;
-  }
-}
-.cid-rbS9775EWF .media-wrap .mbr-iconfont-logo {
-  font-size: 7rem;
-  color: #f36;
-}
-.cid-rbS9775EWF .media-wrap img {
-  height: 6rem;
-}
-.cid-rbS9775EWF .mbr-text {
-  color: #767676;
-}
-@media (max-width: 767px) {
-  .cid-rbS9775EWF .footer-lower .copyright {
-    margin-bottom: 1rem;
-    text-align: center;
-  }
-}
-.cid-rbS9775EWF .footer-lower hr {
-  margin: 1rem 0;
-  border-color: #000;
-  opacity: .05;
-}
-.cid-rbS9775EWF .footer-lower .social-list {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  -webkit-justify-content: flex-end;
-}
-.cid-rbS9775EWF .footer-lower .social-list .mbr-iconfont-social {
-  font-size: 1.3rem;
-  color: #232323;
-}
-.cid-rbS9775EWF .footer-lower .social-list .soc-item {
-  margin: 0 .5rem;
-}
-.cid-rbS9775EWF .footer-lower .social-list a {
-  margin: 0;
-  opacity: .5;
-  -webkit-transition: .2s linear;
-  transition: .2s linear;
-}
-.cid-rbS9775EWF .footer-lower .social-list a:hover {
-  opacity: 1;
-}
-@media (max-width: 767px) {
-  .cid-rbS9775EWF .footer-lower .social-list {
-    justify-content: center;
-    -webkit-justify-content: center;
-  }
-}
-.cid-rbS9775EWF .links {
-  color: #263f8c;
-}
-.cid-rbS9775EWF .copyright > p {
-  color: #263f8c;
-  text-align: left;
-}
-.cid-rbS9775EWF .links B {
-  color: #263f8c;
-}
-.cid-rbS9775EWF .copyright > p I {
-  color: #263f8c;
-}
-.cid-rbS9775EWF .links A {
-  color: #263f8c;
 }
