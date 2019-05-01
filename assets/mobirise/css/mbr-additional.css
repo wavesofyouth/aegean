@@ -1562,42 +1562,6 @@ body {
   text-align: left;
   color: #ffffff;
 }
-.cid-rotoznBv92 {
-  padding-top: 45px;
-  padding-bottom: 45px;
-  background-color: #ffffff;
-}
-.cid-rotoznBv92 .media-container-row {
-  flex-direction: row-reverse;
-  -webkit-flex-direction: row-reverse;
-}
-@media (min-width: 992px) {
-  .cid-rotoznBv92 .mbr-figure {
-    padding-right: 4rem;
-    padding-right: 0;
-    padding-left: 4rem;
-  }
-}
-@media (max-width: 991px) {
-  .cid-rotoznBv92 .mbr-figure {
-    padding-bottom: 3rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-rotoznBv92 .mbr-text {
-    text-align: center;
-  }
-}
-.cid-rotoznBv92 H1 {
-  color: #263f8c;
-}
-.cid-rotoznBv92 .mbr-text,
-.cid-rotoznBv92 .mbr-section-btn {
-  color: #767676;
-}
-.cid-rotoznBv92 H3 {
-  color: #263f8c;
-}
 .cid-rpemln7z14 {
   padding-top: 60px;
   padding-bottom: 45px;
