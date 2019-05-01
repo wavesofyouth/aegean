@@ -16,8 +16,8 @@
         "display1Font": "Josefin Sans",
         "display1Size": "3.4",
         "display2Font": "Josefin Sans",
-        "display2Size": "3",
-        "display5Font": "Josefin Sans",
+        "display2Size": "2.4",
+        "display5Font": "RobotoCondensed-Bold",
         "display5Size": "1.6",
         "display7Font": "RobotoCondensed-Bold",
         "display7Size": "1.3",
@@ -93,7 +93,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 290,
+    "uniqCompNum": 293,
     "versionPublish": "4.9.7",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/curto-azul-128x128.png",
@@ -205,7 +205,7 @@
             }
           },
           "_name": "header2",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/3-2000x1134.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#263f8c\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://vimeo.com/329583572\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">A DEBATE ABOUT THE MEDITERRANEAN CRISIS BASED ON AEGEAN.<div><br></div></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">'About Greece, About Europe' centres on Aegean, a documentary by Tomás Barão da Cunha and Raul Fretes, shot between Athens and Thessaloniki throughout the past year of 2018. The proposed debate intends to steer the film from the screen to the centre of action. Counting on the participation of parties who had been in the spotlight of these times, we are invited to listen to the stories of the ones who lived the crisis in loco and are still, to this day, far away from knowing its end. Based on the premise that Europe is a welcoming place, we are led to follow a chronological timeline since the beginning of this migration crisis, ever since the closing of the borders, up until now.<br><br>Coming in May in selected cities around Europe.<br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/3-2000x1134.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#263f8c\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://vimeo.com/329583572\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">A DEBATE ABOUT THE MEDITERRANEAN CRISIS BASED ON AEGEAN.<div><br></div></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">'About Greece, About Europe' centres on Aegean, a documentary by Tomás Barão da Cunha and Raul Fretes, shot between Athens and Thessaloniki throughout the past year of 2018. The proposed debate intends to steer the film from the screen to the centre of action. Counting on the participation of parties who had been in the spotlight of these times, we are invited to listen to the stories of the ones who lived the crisis in loco and are still, to this day, far away from knowing its end. Based on the premise that Europe is a welcoming place, we are led to follow a chronological timeline since the beginning of this migration crisis, ever since the closing of the borders, up until now.<br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "rbS0NeXrtd",
           "_anchor": "header2-7o",
           "_protectedParams": [],
@@ -216,30 +216,38 @@
         {
           "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "div.b": {
-              "padding-top": "2rem"
-            },
-            ".mbr-text": {
-              "color": "#767676",
-              "margin": "0",
-              "padding-top": "1.5rem",
-              "text-align": "left"
-            },
-            "a:not([href]):not([tabindex])": {
-              "color": "#fff",
-              "border-radius": "3px"
+            ".main_wrapper": {
+              "position": "relative",
+              "height": "~\"@{heightMap}rem\"",
+              "width": "100%",
+              "background-color": "#c0c0c0",
+              ".b_wrapper": {
+                "height": "100%",
+                "display": "flex",
+                "align-items": "center",
+                "position": "relative",
+                "z-index": "2",
+                "pointer-events": "none",
+                ".block": {
+                  "height": "300px",
+                  "background-color": "@colorBlock",
+                  "pointer-events": "fill",
+                  ".block_wrapper": {
+                    "display": "flex",
+                    "flex-direction": "column",
+                    "justify-content": "center",
+                    "height": "100%"
+                  }
+                }
+              }
             },
             ".google-map": {
-              "height": "~\"@{heightMap}rem\"",
-              "position": "relative",
+              "height": "100%",
+              "width": "100%",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "z-index": "1",
               "iframe": {
                 "height": "100%",
                 "width": "100%"
@@ -265,30 +273,33 @@
                 }
               }
             },
-            "div.left-block.wrapper": {
-              "height": "100%",
-              "display": "flex",
-              "flex-direction": "column",
-              "justify-content": "flex-start"
-            },
             "@media (max-width: 767px)": {
-              "div.left-block.wrapper": {
-                "padding-bottom": "3rem"
+              ".main_wrapper .b_wrapper": {
+                "display": "block",
+                "height": "unset"
+              },
+              ".google-map": {
+                "position": "relative"
+              },
+              ".container": {
+                "max-width": "100%",
+                "padding": "0"
               }
             },
-            "H2": {
-              "color": "#263f8c"
+            "P": {
+              "color": "#f9f9f9"
             },
-            "H5": {
-              "color": "#263f8c"
+            "H4": {
+              "text-align": "left",
+              "color": "#ffffff"
             }
           },
-          "_name": "contacts1",
-          "_customHTML": "<section class=\"mbr-section contacts1\" group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <!---->\n    <mbr-parameters>\n        <!---->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"3\">\n        <!---->\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitleSect\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitleSect\">\n        <!---->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"ChIJSWnieG-FqkARfedFRiuDWos\" value=\"soho sofia\n\">\n        <input type=\"range\" title=\"Height Map\" name=\"heightMap\" min=\"15\" max=\"50\" step=\"1\" value=\"19\">\n        <!---->\n        <input type=\"checkbox\" title=\"Show Adress\" name=\"showAdress\" checked>\n        <input type=\"checkbox\" title=\"Show Phone\" name=\"showPhone\">\n        <input type=\"checkbox\" title=\"Show Mail\" name=\"showMail\">\n        <!---->\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <!---->\n    <!--Overlay-->\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <!--Container-->\n    <div class=\"container\">\n        <div class=\"row\">\n            <!--Titles-->\n            <div class=\"title col-12\">\n                <h2 mbr-if=\"showTitleSect\" class=\"align-left mbr-fonts-style\" mbr-theme-style=\"display-2\"><b>SOFIA, BG</b></h2>\n                <h3 mbr-if=\"showSubtitleSect\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle mbr-light mbr-fonts-style pt-3\" mbr-theme-style=\"display-5\"></h3>\n            </div>\n            <!--Left-->\n            <div class=\"col-12 col-md-6\">\n                <div class=\"left-block wrapper\">\n                    <div class=\"b b-adress\" mbr-if=\"showAdress\">\n                        <h5 class=\"align-left mbr-fonts-style m-0\" mbr-theme-style=\"display-5\"><b>MAY 10 — 19:30 — 60'&nbsp;<br></b>SOHO (SOFIA HOLISTIC COWORKING COMPANY)<br></h5>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>More info coming soon.</b></p>\n                    </div>\n                    <div class=\"b b-phone\" mbr-if=\"showPhone\">\n                        <h5 class=\"align-left mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                            Phone:\n                        </h5>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            +1 (0) 000 0000 001\n                        </p>\n                    </div>\n                    <div class=\"b b-mail\" mbr-if=\"showMail\">\n                        <h5 class=\"align-left mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                            E-mail:\n                        </h5>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            youremail@mail.com\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <!--Right-->\n            <div class=\"col-12 col-md-6\">\n                <div class=\"google-map\" mbr-map=\"googleMap\">\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "contacts1-7w",
+          "_name": "contacts4",
+          "_customHTML": "<section class=\"contacts4\" group=\"Maps\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"ChIJO5LPTBg5qBQRDDi63x9kfq0\" value=\"balkan heart\n\">\n        <input type=\"range\" inline title=\"Height Map\" name=\"heightMap\" min=\"20\" max=\"60\" step=\"1\" value=\"33\">\n        <input type=\"checkbox\" title=\"Show Block\" name=\"showBlock\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" condition=\"showBlock\" checked>\n        <input type=\"checkbox\" title=\"Show Text-1\" name=\"showText1\" condition=\"showBlock\" checked>\n        <input type=\"checkbox\" title=\"Show Text-2\" name=\"showText2\" condition=\"showBlock\" checked>\n        <input type=\"color\" title=\"Color Block\" name=\"colorBlock\" value=\"#263f8c\" condition=\"showBlock\">\n\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"main_wrapper\">\n        <div class=\"b_wrapper\" mbr-if=\"showBlock\">\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-12 col-md-5 p-0\">\n                        <div class=\"block p-5\">\n                            <div class=\"block_wrapper\">\n                                <h4 class=\"align-left mbr-fonts-style pb-4 m-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>SOFIA, BG</b></h4>\n                                <p class=\"mbr-text align-left mbr-fonts-style pb-4 m-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText1\">MAY 10 — 19:30 — 90' <br>SOHO (SOFIA HOLISTIC COWORKING COMPANY)<br></p>\n                                <p class=\"mbr-text align-left mbr-fonts-style m-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText2\">More info coming soon.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <!--Map-->\n        <div class=\"google-map\" mbr-map=\"googleMap\">\n        </div>\n    </div>\n</section>",
+          "_anchor": "contacts4-83",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
-          "_cid": "rotovLzfyE",
+          "_cid": "rpes5X9mqF",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -297,29 +308,38 @@
         {
           "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "div.b": {
-              "padding-top": "2rem"
-            },
-            ".mbr-text": {
-              "color": "#767676",
-              "margin": "0",
-              "padding-top": "1.5rem"
-            },
-            "a:not([href]):not([tabindex])": {
-              "color": "#fff",
-              "border-radius": "3px"
+            ".main_wrapper": {
+              "position": "relative",
+              "height": "~\"@{heightMap}rem\"",
+              "width": "100%",
+              "background-color": "#c0c0c0",
+              ".b_wrapper": {
+                "height": "100%",
+                "display": "flex",
+                "align-items": "center",
+                "position": "relative",
+                "z-index": "2",
+                "pointer-events": "none",
+                ".block": {
+                  "height": "300px",
+                  "background-color": "@colorBlock",
+                  "pointer-events": "fill",
+                  ".block_wrapper": {
+                    "display": "flex",
+                    "flex-direction": "column",
+                    "justify-content": "center",
+                    "height": "100%"
+                  }
+                }
+              }
             },
             ".google-map": {
-              "height": "~\"@{heightMap}rem\"",
-              "position": "relative",
+              "height": "100%",
+              "width": "100%",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "z-index": "1",
               "iframe": {
                 "height": "100%",
                 "width": "100%"
@@ -345,30 +365,123 @@
                 }
               }
             },
-            "div.left-block.wrapper": {
-              "height": "100%",
-              "display": "flex",
-              "flex-direction": "column",
-              "justify-content": "flex-start"
-            },
             "@media (max-width: 767px)": {
-              "div.left-block.wrapper": {
-                "padding-bottom": "3rem"
+              ".main_wrapper .b_wrapper": {
+                "display": "block",
+                "height": "unset"
+              },
+              ".google-map": {
+                "position": "relative"
+              },
+              ".container": {
+                "max-width": "100%",
+                "padding": "0"
               }
             },
-            "H2": {
-              "color": "#263f8c"
+            "P": {
+              "color": "#f9f9f9"
             },
-            "H5": {
-              "color": "#263f8c"
+            "H4": {
+              "text-align": "left",
+              "color": "#ffffff"
             }
           },
-          "_name": "contacts1",
-          "_customHTML": "<section class=\"mbr-section contacts1\" group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <!---->\n    <mbr-parameters>\n        <!---->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"3\">\n        <!---->\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitleSect\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitleSect\">\n        <!---->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"ChIJO5LPTBg5qBQRDDi63x9kfq0\" value=\"BALKAN HEART, THESSALONIKI\">\n        <input type=\"range\" title=\"Height Map\" name=\"heightMap\" min=\"15\" max=\"50\" step=\"1\" value=\"19\">\n        <!---->\n        <input type=\"checkbox\" title=\"Show Adress\" name=\"showAdress\" checked>\n        <input type=\"checkbox\" title=\"Show Phone\" name=\"showPhone\">\n        <input type=\"checkbox\" title=\"Show Mail\" name=\"showMail\">\n        <!---->\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <!---->\n    <!--Overlay-->\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <!--Container-->\n    <div class=\"container\">\n        <div class=\"row\">\n            <!--Titles-->\n            <div class=\"title col-12\">\n                <h2 mbr-if=\"showTitleSect\" class=\"align-left mbr-fonts-style\" mbr-theme-style=\"display-2\"><b>THESSALONIKI, GR</b></h2>\n                <h3 mbr-if=\"showSubtitleSect\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle mbr-light mbr-fonts-style pt-3\" mbr-theme-style=\"display-5\"></h3>\n            </div>\n            <!--Left-->\n            <div class=\"col-12 col-md-6\">\n                <div class=\"left-block wrapper\">\n                    <div class=\"b b-adress\" mbr-if=\"showAdress\">\n                        <h5 class=\"align-left mbr-fonts-style m-0\" mbr-theme-style=\"display-5\"><b>MAY 14 — 19:30 — 60'<br></b>BALKAN HEART (USB)</h5>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">More info coming soon.<br></p>\n                    </div>\n                    <div class=\"b b-phone\" mbr-if=\"showPhone\">\n                        <h5 class=\"align-left mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                            Phone:\n                        </h5>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            +1 (0) 000 0000 001\n                        </p>\n                    </div>\n                    <div class=\"b b-mail\" mbr-if=\"showMail\">\n                        <h5 class=\"align-left mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                            E-mail:\n                        </h5>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            youremail@mail.com\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <!--Right-->\n            <div class=\"col-12 col-md-6\">\n                <div class=\"google-map\" mbr-map=\"googleMap\">\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "contacts1-7x",
+          "_name": "contacts4",
+          "_customHTML": "<section class=\"contacts4\" group=\"Maps\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"ChIJO5LPTBg5qBQRDDi63x9kfq0\" value=\"balkan heart\n\">\n        <input type=\"range\" inline title=\"Height Map\" name=\"heightMap\" min=\"20\" max=\"60\" step=\"1\" value=\"33\">\n        <input type=\"checkbox\" title=\"Show Block\" name=\"showBlock\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" condition=\"showBlock\" checked>\n        <input type=\"checkbox\" title=\"Show Text-1\" name=\"showText1\" condition=\"showBlock\" checked>\n        <input type=\"checkbox\" title=\"Show Text-2\" name=\"showText2\" condition=\"showBlock\" checked>\n        <input type=\"color\" title=\"Color Block\" name=\"colorBlock\" value=\"#263f8c\" condition=\"showBlock\">\n\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"main_wrapper\">\n        <div class=\"b_wrapper\" mbr-if=\"showBlock\">\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-12 col-md-5 p-0\">\n                        <div class=\"block p-5\">\n                            <div class=\"block_wrapper\">\n                                <h4 class=\"align-left mbr-fonts-style pb-4 m-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>THESSALONIKI, GR</b></h4>\n                                <p class=\"mbr-text align-left mbr-fonts-style pb-4 m-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText1\">MAY 14 — 19:30 — 90'<br>AT BALKAN HEART (USB)</p>\n                                <p class=\"mbr-text align-left mbr-fonts-style m-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText2\">More info coming soon.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <!--Map-->\n        <div class=\"google-map\" mbr-map=\"googleMap\">\n        </div>\n    </div>\n</section>",
+          "_cid": "rperjGj0t2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "contacts4-82"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            ".main_wrapper": {
+              "position": "relative",
+              "height": "~\"@{heightMap}rem\"",
+              "width": "100%",
+              "background-color": "#c0c0c0",
+              ".b_wrapper": {
+                "height": "100%",
+                "display": "flex",
+                "align-items": "center",
+                "position": "relative",
+                "z-index": "2",
+                "pointer-events": "none",
+                ".block": {
+                  "height": "300px",
+                  "background-color": "@colorBlock",
+                  "pointer-events": "fill",
+                  ".block_wrapper": {
+                    "display": "flex",
+                    "flex-direction": "column",
+                    "justify-content": "center",
+                    "height": "100%"
+                  }
+                }
+              }
+            },
+            ".google-map": {
+              "height": "100%",
+              "width": "100%",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "z-index": "1",
+              "iframe": {
+                "height": "100%",
+                "width": "100%"
+              },
+              "[data-state-details]": {
+                "color": "#6b6763",
+                "font-family": "Montserrat",
+                "height": "1.5em",
+                "margin-top": "-0.75em",
+                "padding-left": "1.25rem",
+                "padding-right": "1.25rem",
+                "position": "absolute",
+                "text-align": "center",
+                "top": "50%",
+                "width": "100%"
+              },
+              "&[data-state]": {
+                "background": "#e9e5dc"
+              },
+              "&[data-state=\"loading\"]": {
+                "[data-state-details]": {
+                  "display": "none"
+                }
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".main_wrapper .b_wrapper": {
+                "display": "block",
+                "height": "unset"
+              },
+              ".google-map": {
+                "position": "relative"
+              },
+              ".container": {
+                "max-width": "100%",
+                "padding": "0"
+              }
+            },
+            "P": {
+              "color": "#f9f9f9"
+            },
+            "H4": {
+              "text-align": "left",
+              "color": "#ffffff"
+            }
+          },
+          "_name": "contacts4",
+          "_customHTML": "<section class=\"contacts4\" group=\"Maps\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"ChIJ1SZCvy0kMgsRQfBOHAlLuCo\" value=\"PORTUGAL\">\n        <input type=\"range\" inline title=\"Height Map\" name=\"heightMap\" min=\"20\" max=\"60\" step=\"1\" value=\"33\">\n        <input type=\"checkbox\" title=\"Show Block\" name=\"showBlock\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" condition=\"showBlock\" checked>\n        <input type=\"checkbox\" title=\"Show Text-1\" name=\"showText1\" condition=\"showBlock\" checked>\n        <input type=\"checkbox\" title=\"Show Text-2\" name=\"showText2\" condition=\"showBlock\" checked>\n        <input type=\"color\" title=\"Color Block\" name=\"colorBlock\" value=\"#263f8c\" condition=\"showBlock\">\n\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"main_wrapper\">\n        <div class=\"b_wrapper\" mbr-if=\"showBlock\">\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-12 col-md-5 p-0\">\n                        <div class=\"block p-5\">\n                            <div class=\"block_wrapper\">\n                                <h4 class=\"align-left mbr-fonts-style pb-4 m-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>ON TV</b></h4>\n                                <p class=\"mbr-text align-left mbr-fonts-style pb-4 m-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText1\">MAY 23 — 22:00 — 30'<br>AT CANAL 180 (PORTUGUESE CABLE TV)</p>\n                                <p class=\"mbr-text align-left mbr-fonts-style m-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText2\">Only Screening of 'Aegean'.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <!--Map-->\n        <div class=\"google-map\" mbr-map=\"googleMap\">\n        </div>\n    </div>\n</section>",
+          "_anchor": "contacts4-84",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
-          "_cid": "rotowG674h",
+          "_cid": "rpesianNwL",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -424,7 +537,7 @@
             }
           },
           "_name": "header3",
-          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n    \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"100\">\n        <input type=\"checkbox\" title=\"Media On Left/Right\" name=\"reverseContent\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#232323\" condition=\"gradientBg && bg.type == 'color'\">\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f9f295\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/1-1000x576.png\" alt=\"Mobirise\" title>\n            </div>\n\n            <div class=\"media-content\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\"><b>ON TV</b><br></h1>\n                <h3 class=\"mbr-section-subtitle align-left mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-5\"><b>MAY 23 — 22:00 — CANAL180 — 30'</b><br></h3>\n                <div class=\"mbr-section-text mbr-white pb-3 \">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">\n                        Screening of 'Aegean'. Only on Portuguese cable television.<br></p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LEARN MORE</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LIVE DEMO</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n    \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"100\">\n        <input type=\"checkbox\" title=\"Media On Left/Right\" name=\"reverseContent\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#232323\" condition=\"gradientBg && bg.type == 'color'\">\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f9f295\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/1-1000x576.png\" alt=\"Mobirise\" title>\n            </div>\n\n            <div class=\"media-content\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\"><b>ON TV</b><br></h1>\n                <h3 class=\"mbr-section-subtitle align-left mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-5\"><br></h3>\n                <div class=\"mbr-section-text mbr-white pb-3 \">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">\n                        Screening of 'Aegean'. Only on Portuguese cable television.<br></p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LEARN MORE</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LIVE DEMO</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_anchor": "header3-80",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
