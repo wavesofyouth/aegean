@@ -1,4 +1,12 @@
 @font-face {
-   font-family: 'RobotoCondensed-Bold';
-   src: url('RobotoCondensed-Bold/font.ttf');
+   font-family: 'JosefinSans-Bold';
+   src: url('JosefinSans-Bold/font.ttf');
+}
+@font-face {
+   font-family: 'HelveticaNowDisplay-Black';
+   src: url('HelveticaNowDisplay-Black/font.ttf');
+}
+@font-face {
+   font-family: 'HelveticaNowDisplay-Bold';
+   src: url('HelveticaNowDisplay-Bold/font.ttf');
 }
