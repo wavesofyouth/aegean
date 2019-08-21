@@ -114,7 +114,7 @@
     "uniqCompNum": 299,
     "versionPublish": "4.10.1",
     "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/curto-azul-128x128.png",
+    "favicon": "@PROJECT_PATH@/assets/images/curto-preto-branco-128x128.png",
     "noImageResize": "",
     "google-analytics": "<!-- Chrome, Firefox OS and Opera -->\r\n<meta name=\"theme-color\" content=\"#263F8C\">\r\n<!-- Windows Phone -->\r\n<meta name=\"msapplication-navbutton-color\" content=\"#263F8C\">\r\n<!-- iOS Safari -->\r\n<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"#263F8C\">",
     "cookiesAlert": "",
