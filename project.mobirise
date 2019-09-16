@@ -14,7 +14,7 @@
         "dangerColor": "#B1A374",
         "mainFont": "Rubik",
         "display1Font": "HelveticaNowDisplay-Black",
-        "display1Size": "4",
+        "display1Size": "5",
         "display2Font": "HelveticaNowDisplay-Black",
         "display2Size": "2.4",
         "display5Font": "HelveticaNowDisplay-Black",
@@ -186,11 +186,12 @@
               "color": "#767676"
             },
             ".mbr-text, .mbr-section-btn": {
-              "color": "#000000",
+              "color": "#232323",
               "text-align": "center"
             },
             "H1": {
-              "text-align": "center"
+              "text-align": "center",
+              "color": "#000000"
             }
           },
           "_name": "header16",
