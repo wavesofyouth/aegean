@@ -1333,38 +1333,3 @@ body {
   text-align: left;
   color: #000000;
 }
-.cid-rCfOc58JS8 {
-  padding-top: 75px;
-  padding-bottom: 0px;
-  background-color: #ffffff;
-}
-.cid-rCfOc58JS8 P {
-  color: #767676;
-}
-.cid-rCfOc58JS8 .mbr-text,
-.cid-rCfOc58JS8 .mbr-section-btn {
-  color: #232323;
-  text-align: center;
-}
-.cid-rCfOc58JS8 H1 {
-  text-align: center;
-  color: #000000;
-}
-.cid-rCfNnTHJ8G {
-  background: #ffffff;
-  padding-top: 0px;
-  padding-bottom: 60px;
-}
-.cid-rCfNnTHJ8G .video-block {
-  margin: auto;
-}
-@media (max-width: 768px) {
-  .cid-rCfNnTHJ8G .video-block {
-    width: 100% !important;
-  }
-}
-.cid-rpemln7z14 {
-  padding-top: 60px;
-  padding-bottom: 45px;
-  background-color: #000000;
-}
